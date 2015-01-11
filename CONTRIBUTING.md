@@ -1,5 +1,4 @@
-
-w to Contribute
+How to Contribute
 =================
 
 Pull Requests
