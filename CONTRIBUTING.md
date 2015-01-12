@@ -49,7 +49,8 @@ favorate platform. The following instructions are based on debian wheezy.
 
         # tests/socksify/install.sh
 
-   The `install.sh` for `libsodium` is location free. To be simple, we invoke it from the same location:
+   The `install.sh` for `libsodium` is location free. 
+   To be simple, we invoke it from the same location:
 
         # tests/libsodium/install.sh
 
@@ -66,7 +67,8 @@ The command is `.jenkins.sh`. Invoke like this:
 
 Note that we are running `.jenkins.sh` as normal user.
 
-Be aware that `.jenkins.sh` does not stop when the first failure occurs. Instead, it runs through all tests and reports all failures.
+Be aware that `.jenkins.sh` does not stop when the first failure occurs. 
+Instead, it runs through all tests and reports all failures.
 
 ### Special tests
 
@@ -81,8 +83,8 @@ Be aware that `.jenkins.sh` does not stop when the first failure occurs. Instead
   and increase the delay.
 
 * `tests/test_large_file.sh` requires an http server to host a downloadable
-file at http://127.0.0.1/file . 
-  Here is an easy way to do that:
+file at http://127.0.0.1/file . If you do not have a local httpd server running,
+  here is an easy way to do that:
 
       # pwd
       /path/to/your/shadowsocks
