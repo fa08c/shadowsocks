@@ -57,15 +57,16 @@ favorate platform. The following instructions are based on debian wheezy.
 
 You must issue it from your local repo root:
 
-    # pwd
+    $ pwd
     /path/to/your/shadowsocks
 
 The command is `.jenkins.sh`. Invoke like this:
 
-    # ./.jenkins.sh
+    $ ./.jenkins.sh
 
-Note that `.jenkins.sh` does not stop when the first failure occurs. Instead,
-it runs through all tests.
+Note that we are running `.jenkins.sh` as a normal user.
+
+Be aware that `.jenkins.sh` does not stop when the first failure occurs. Instead, it runs through all tests and reports all failures.
 
 ### Special tests
 
