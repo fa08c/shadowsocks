@@ -82,7 +82,7 @@ it runs through all tests.
 
 * `tests/test_large_file.sh` requires an http server to host a downloadable
 file named at http://127.0.0.1/file . 
-  Here is an easy way to do this:
+  Here is an easy way to do that:
 
       # pwd
       /path/to/your/shadowsocks
