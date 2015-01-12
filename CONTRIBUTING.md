@@ -40,19 +40,18 @@ favorate platform. The following instructions are based on debian wheezy.
 
 3. libsodium and socksify
 
-You must issue the `install.sh` for `socksify` from your local repo root:
+   You must issue the `install.sh` for `socksify` from your local repo root:
 
-    # pwd
-    /path/to/your/shadowsocks
+        # pwd
+        /path/to/your/shadowsocks
 
-Run the script:
+   Run the script:
 
-    # tests/socksify/install.sh
+        # tests/socksify/install.sh
 
-The `install.sh` for `libsodium` is location free. To be simple, we invoke
-it from the same location:
+   The `install.sh` for `libsodium` is location free. To be simple, we invoke it from the same location:
 
-    # tests/libsodium/install.sh
+        # tests/libsodium/install.sh
 
 ### Running unittests
 
@@ -89,7 +88,7 @@ file named at http://127.0.0.1/file .
       # echo "TEST" > file
       # python -m SimpleHTTPServer 80
 
-Note that to bind SimpleHTTPServer to `80`, you need super user privilege.
+  Note that to bind SimpleHTTPServer to `80`, you need super user privilege.
 Alternatively, you can modify `tests/test_large_file.sh` to use a different
 port.
 
