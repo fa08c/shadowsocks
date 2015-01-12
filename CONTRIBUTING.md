@@ -72,7 +72,7 @@ it runs through all tests.
 
 * For me, the following test in `.jenkins.sh` does not get passed by default:
 
-      run_test python tests/test.py --with-coverage -c tests/table.json
+          run_test python tests/test.py --with-coverage -c tests/table.json
 
   I have to modify `tests/test.py:104`
 
